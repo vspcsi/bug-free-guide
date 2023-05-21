@@ -1,3 +1,5 @@
-export function test() {
-    console.log("Hi, I'm an extension !")
+module.exports = {
+    test: function () {
+        console.log("Hi, I'm a test")
+    }
 }
